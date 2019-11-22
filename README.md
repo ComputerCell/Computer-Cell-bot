@@ -8,3 +8,5 @@ v0.01
 async def ReplaceMe(ctx):
     await ctx.send("Response to the replace me command.")
 ```
+# Usage
+In discord chat type `>ReplaceMe` to run your command.
