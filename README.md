@@ -10,3 +10,10 @@ async def ReplaceMe(ctx):
 ```
 # Usage
 In discord chat type `>ReplaceMe` to run your command.
+
+
+```python
+@bot.command("ReplaceMe")
+async def ReplaceMe(ctx, name):
+    await ctx.send(f"Response to the replace me command. {name}")
+```
