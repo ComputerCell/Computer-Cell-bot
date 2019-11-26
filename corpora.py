@@ -29,7 +29,7 @@ class Corpora:
             if dept == 'cs':
                 await ctx.send("Computer Cell Finance Director")
             else:
-                await ctx.send("Compu")
+                await ctx.send("Computer Cell Member")
 
         @bot.command("roast")
         async def hello(ctx):
