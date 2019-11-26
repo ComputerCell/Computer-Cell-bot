@@ -23,6 +23,13 @@ class Corpora:
         @bot.command("pet")
         async def hello(ctx):
             await ctx.send("Thank you master. *purrrrs*")
+            
+        @bot.command("hamza")
+        async def hello(ctx, dept):
+            if dept == 'cs':
+                await ctx.send("Computer Cell Finance Director")
+            else:
+                await ctx.send("Compu")
 
         @bot.command("roast")
         async def hello(ctx):
